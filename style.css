@@ -1,0 +1,115 @@
+html, body {
+   align-content: center;
+   text-align: center;
+   margin: 0 5% 0 5%;
+   padding: 0;
+}
+
+.container {
+   background: linear-gradient(0.25turn, #1d1d1c, #4e4e4d, #acadad);
+   background-size: 100% 100%;
+   color: whitesmoke;
+}
+
+.header {
+   display: flex;
+   justify-content: center;
+   align-content: center;
+   background-color: #1d1d1c;
+   margin: 0 0 30px 0;
+   color: #acadad;
+   min-height: 50px;
+   text-transform: uppercase;
+}
+
+.input-task {
+   margin: 30px auto 50px auto;
+   padding: 10px 0 10px 0; 
+}
+
+
+input[type=text] {
+   width: 40%;
+   border-radius: 5px;
+   border: 1px solid black;
+   box-sizing: border-box;
+   padding: 12px 20px;
+   display: inline-block;
+}
+
+#add-input {
+   border: 1px solid black;
+   border-radius: 5px;
+   padding: 12px 20px;
+   cursor: pointer;
+}
+
+.incomplete-section {
+   margin: 30px auto 40px auto;
+   max-width: 400px;
+   min-width: 60%;
+}
+
+.task-list-div {
+   margin: 0 auto 0 auto;
+}
+
+#incomplete-list {   
+   border-bottom: 1px solid #acadad;
+   border-top: 1px solid #acadad;
+   border-radius: 5px;
+   padding: 10px 0 10px 0;
+}
+
+.complete-section {
+   margin: 30px auto 60px auto;
+   max-width: 400px;
+   min-width: 60%;
+}
+
+#complete-list {
+   border-bottom: 1px solid #acadad;
+   border-top: 1px solid #acadad;
+   border-radius: 5px;
+   padding: 10px 0 10px 0;
+}
+
+li {
+   display: flex;
+   width: 100%;
+   justify-content: space-between;
+   margin-right: 20px;
+}
+
+li p {
+   text-align: left;
+   margin-left: 5px;
+}
+
+li div {
+   display: flex;
+   flex-direction: row;
+   align-self: center;
+   float: right;
+}
+
+li button {
+   background: transparent;
+   color: black;
+   border: none;
+   cursor: pointer;
+}
+
+.footer {
+   display: flex;
+   justify-content: center;
+   align-content: center;
+   background-color: black;
+   color: #acadad;
+   min-height: 10px;
+} 
+
+li button:hover {
+color: white;
+transform: scale(0.7);
+}
